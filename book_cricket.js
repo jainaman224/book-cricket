@@ -30,7 +30,8 @@ $(document).ready( function() {
     compare();
     if (i>=3){
       $('.fd').hide();
-      $('.play').show();
+      $('.play').html('Play Again');
+      $('.play').fadeIn('fast');
       i=0;
     }
   else if (b==1) {
